@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "Raleway";
+	src: url('../font/Raleway-Regular.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Cartoon";
+	src: url('../font/Cartoon.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MavenPro";
+	src: url('../font/MavenPro.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Selima";
+	src: url('../font/Selima.otf') format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Jura";
+	src: url('../font/Jura .ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

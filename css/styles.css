@@ -1,0 +1,421 @@
+
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: "Raleway";
+}
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 14px 'Raleway';
+	 background: #323232;
+	 opacity:0.8;
+	 filter:alpha(opacity=40);
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin: 0 auto;
+   z-index: 100;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+.opaque { background-color: #00aa9d; }
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 60px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 15px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: center;
+   color: #fff;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+ul#nav li a:hover {
+background: #00aa9d;
+color: #fff;
+}
+
+.center{
+	width: 450px;
+	margin: 0 auto;
+}
+
+.clear{
+	float: none;
+	clear: both;
+}
+
+#wrapper{
+	margin-top: 0;
+	padding: 0;
+	background-image: url("../img/banner.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat
+}
+#header {
+	height: auto;
+	padding: 5px;
+	border-radius: 1px;
+	background: #00aa9d;
+}
+
+
+.logo{
+	float: none;
+	margin: 0;
+	text-align: center;
+	}
+
+.logo p{
+	padding: 150px;
+	padding-left: 0;
+	padding-right: 0;
+	color: #000;
+	font-family: "Selima";
+	font-size: 90px;
+}
+
+.caption {
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+.caption .head p {
+	color: #000;
+	font-size: 30px;
+	font-style: italic;
+}
+.caption .body p{
+	padding: 0;
+	margin: 0;
+	padding-bottom: 0;
+	color: #fff;
+		font-family: "Raleway";
+	font-size: 20px;
+}
+.caption .end p{
+	color: #000;
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+
+
+img .bar {
+	float: none;
+	margin: 0;
+}
+
+
+img.foto {
+	width: 300px;
+	margin: 0;
+}
+.content p {
+	font-style: italic;
+	font-size: 20px;
+}
+.sosial ul {
+	display: inline-block;
+	float: left;
+}
+.sosial ul li {
+	display: inline-block;
+}
+.body p{
+	font-size: 30px;
+}
+.project {
+	background: #fff;
+	text-align: center;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.container-fluid {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#about {
+	background-image: url("../img/banner.jpg");
+	background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+	margin: 0;
+	padding: 0;
+}
+..about .tittle {
+	height: auto;
+	padding: 5px;
+	border-radius: 1px;
+	background: #00aa9d.;
+}
+
+.name-head {
+	color: #000;
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+
+.name-head h1 {
+	font-family: 'Cartoon';
+	font-size: 50px;
+		text-align: center;
+}
+.name-head p {
+	font-size: 18px;
+}
+.quote {
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+.about-edu {
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.about-edu p {
+	font-family: 'MavenPro';
+	font-size: 20px;
+}
+
+.about-work {
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.about-work h3 {
+	text-align: right;
+}
+.about-work p {
+	font-family: 'MavenPro';
+	font-size: 20px;
+}
+
+.quote blockquote {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.contact-head {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.contact-head h3 {
+	text-align: center;
+}
+
+.contact-head p {
+	text-align: center;
+	 font-size: 15px;
+}
+
+.sosial-media {
+	margin: 0;
+	padding: 0;
+	float: none;
+	display: inline-block;
+}
+
+.sosial-media ul {
+	list-style-type: none;
+}
+.sosial-media ul li {
+	display: inline-block;
+}
+.sosial-media p {
+	font-family: 'Cartoon';
+	font-size: 40px;
+}
+
+.head{
+	background: transparent;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+}
+.portofolio{
+	background: #323232;
+	color: #ebeeee;
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+}
+
+#contact {
+	background: #323232;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 14px;
+		font-family: "Raleway";
+		text-align: center;
+}
+
+#contact .head{
+	background: transparent;
+	color: #00aa9d;;
+	padding: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+
+#footer{
+	background: #00aa9d;
+	margin: 0;
+	padding: 20px;
+}
+
+#footer p{
+	color: #fff;
+	font-family: "Raleway";
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+
+.portofolio h1 {
+	text-align: center;
+	font-size: 35px;
+}
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap {
+      font: 12px 'opensans-bold', sans-serif;
+      background: transparent !important;
+      letter-spacing: 1.5px;
+      width: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+   }
+   #nav-wrap > a {
+	   width: 48px;
+		height: 48px;
+		text-align: left;
+		background-color: #00aa9d;
+		position: relative;
+      border: none;
+      float: right;
+
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+
+      position: relative;
+      top: 0px;
+      right: 30px;
+   }
+
+	#nav-wrap > a:before,
+   #nav-wrap > a:after {
+	   position: absolute;
+		border: 2px solid #fff;
+		top: 35%;
+		left: 25%;
+		right: 25%;
+		content: '';
+	}
+   #nav-wrap > a:after { top: 60%; }
+
+   /* toggle buttons */
+	#nav-wrap:not( :target ) > a:first-of-type,
+	#nav-wrap:target > a:last-of-type  {
+	   display: block;
+	}
+
+   /* hide menu panel */
+   #nav-wrap ul#nav {
+      height: auto;
+		display: none;
+      clear: both;
+      width: auto;
+      float: right;
+
+      position: relative;
+      top: 12px;
+      right: 0;
+   }
+
+   /* display menu panels */
+	#nav-wrap:target > ul#nav	{
+	   display: block;
+      padding: 30px 20px 48px 20px;
+      background: #1f2024;
+      margin: 0 30px;
+      clear: both;
+   }
+
+   ul#nav li {
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      padding: 0 4%;
+      text-align: left;
+      border-bottom: 1px solid #2D2E34;
+      border-bottom-style: dotted;
+   }
+
+   ul#nav li a {
+      display: block;
+      margin: 0;
+      padding: 0;
+      margin: 12px 0;
+      line-height: 16px; /* reset line-height from 48px */
+      border: none;
+   }
